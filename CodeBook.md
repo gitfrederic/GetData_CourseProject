@@ -18,6 +18,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+To make the data **'tidy'**, the feature names were made lowercase (e.g. 'tBody' becomes 'tbody'), the parenthesis and dashes were removed, and 'Acc' was renamed as 'acceleration' to be more clear about its meaning.  Also, since the features are means, all measurements are prefixed with 'meanof'.
+
 The following is a descrption of each column (field) in the **tidy_dataset.txt** data set:
 
 <table>
